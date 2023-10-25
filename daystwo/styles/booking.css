@@ -1,0 +1,40 @@
+.main-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(102, 217, 255);
+}
+
+.booking-form * {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.booking-form input[type="submit"] {
+    border: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}

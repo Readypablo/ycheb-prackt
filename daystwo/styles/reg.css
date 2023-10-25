@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.main-content {
+ 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.registration-form {
+    background-color: rgb(102, 217, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 100px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 500px;
+    justify-content: center;
+}
+
+.registration-form input {
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+.registration-form a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.registration-form a:hover {
+    color: cornsilk;
+}
+
+.log_bnt{
+    background-color: black;
+    color: white;
+}
